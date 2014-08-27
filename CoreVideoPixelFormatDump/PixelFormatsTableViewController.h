@@ -11,3 +11,5 @@
 @interface PixelFormatsTableViewController : UITableViewController
 
 @end
+
+NSString *NSStringFromCVPixelFormatType(OSType type);

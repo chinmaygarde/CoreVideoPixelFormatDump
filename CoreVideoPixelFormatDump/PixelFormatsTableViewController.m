@@ -11,7 +11,7 @@
 
 #import <CoreVideo/CoreVideo.h>
 
-static NSString *NSStringFromCVPixelFormatType(OSType type) {
+NSString *NSStringFromCVPixelFormatType(OSType type) {
     switch (type) {
         case 0x00000001:
             return @"1Monochrome";
